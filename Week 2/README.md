@@ -39,9 +39,19 @@ Spesifikasi | Legacy | UEFI
 --- | --- | ---
 *Skema Pemeriksaan* | Partisi	Master Boot Record (MBR) |	GUID Partition Table (GPT)
 *Proses Booting*	| Proses booting komputer menggunakan firmware BIOS. |	Proses booting pada komputer modern yang menyediakan kemampuan lebih canggih daripada BIOS.
-Jumlah maksimum partisi | primer	4 | partisi	Tidak terbatas (tergantung pada sistem operasi; pada Windows dapat digunakan hingga 128 partisi).
-Ukuran hard drive maksimum |	2 terabyte (2.000 Gigabyte)	| 18 exabyte (18 miliar Gigabyte)
+*Jumlah maksimum partisi* | primer	4 | partisi	Tidak terbatas (tergantung pada sistem operasi; pada Windows dapat digunakan hingga 128 partisi).
+*Ukuran hard drive maksimum* |	2 terabyte (2.000 Gigabyte)	| 18 exabyte (18 miliar Gigabyte)
 Keramahan Pengguna	| Kurang ramah pengguna |	UEFI lebih ramah pengguna daripada Legacy Boot.
+*Skema Pemeriksaan Partisi* | Master Boot Record (MBR) | GUID Partition Table (GPT)
+*Proses Booting* | Proses booting komputer menggunakan firmware BIOS.	| Proses booting pada komputer modern yang menyediakan kemampuan lebih canggih daripada BIOS.
+*Jumlah maksimum partisi primer* | 4 partisi	| Tidak terbatas (tergantung pada sistem operasi; pada Windows dapat digunakan hingga 128 partisi).
+*Ukuran partisi maksimum*	| 2 terabyte (2.000 Gigabyte)	| 18 exabyte (18 miliar Gigabyte)
+*Ukuran hard drive maksimum*	| 2 terabyte (2.000 Gigabyte)	| 18 exabyte (18 miliar Gigabyte)
+*Keamanan*	| Sektor data tidak menggunakan checksum	| Sektor data menggunakan checksum CRC32 dan tabel partisi GUID cadangan.
+*Keramahan Pengguna*	| Kurang ramah pengguna	UEFI | lebih ramah pengguna daripada Legacy Boot.
+*Nama partisi*	| Tersimpan pada partisi	| ID GUID unik disertai dengan nama 36 karakter.
+*Dukungan multi boot*	| Kurang mumpuni	| Bagus, dengan entri boot loader dalam partisi terpisah.
+
 
 2. Komposisi motherboard
 - Power Connector</br>
